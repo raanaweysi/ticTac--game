@@ -1,13 +1,13 @@
 body{
     margin: 0px;
-    background-color: #d3b8ec;
+    background-color: #b6b6bb;
 }
 
 
 h1{
     font-size: 50px;
     text-align: center;
-    color: #9e85d6;
+    color: #1d1b1b;
 }
 
 
@@ -15,13 +15,13 @@ h1{
     margin: auto;
     width: 300px;
     height: 300px;
-    border: 1px solid #ad5994;
+    /* border: 1px solid #131212; */
 }
 
 .cell{
     width: 98px;
     height: 98px;
-    border: 1px solid #ad5994;
+    border: 1px solid #131212;
     display: block;
     float: left;
     font-size: 80px;
@@ -37,18 +37,18 @@ h1{
 
 .cell.fill-x::after{
     content: "x";
-    color: #ec1e96;
+    color: #bef0f0;
 }
 
 .cell.fill-o::after{
     content: "o";
-    color: #5179cf;
+    color: #8393a0;
 }
 
 .cell:hover {
-    background-color: #caacd1;
+    background-color: #696669;
 }
 
 .highlight {
-    background-color: #d1a1d3 !important;
+    background-color: #469b66 !important;
 }
